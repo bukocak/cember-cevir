@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Çember Çevir</title>
+<meta name="description" content="Çemberini çubukla çevir, mahalle sokaklarında koş, engelleri aş; botlarla ve online yarış. Android için 3B çocuk oyunu.">
+<link rel="icon" href="simge.png">
+<style>
+  @font-face { font-family: 'Baloo 2'; font-weight: 800; font-display: swap; src: url(fonts/baloo-2-latin-ext-800-normal.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  @font-face { font-family: 'Baloo 2'; font-weight: 800; font-display: swap; src: url(fonts/baloo-2-latin-800-normal.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  :root { --gok: #8fd3ef; --kagit: #fff8ec; --murekkep: #1f2a44; --gunes: #ffc93c; --gunes-koyu: #d99a12; }
+  * { box-sizing: border-box; }
+  html { background: linear-gradient(#7fcbec, #bfe8f7 60%, #8fd3ef); min-height: 100%; }
+  body { margin: 0; color: var(--murekkep); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .sayfa { max-width: 980px; margin: 0 auto; padding: 32px 16px 40px; }
+  .ust { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .ust img { width: 112px; height: 112px; border-radius: 26px; border: 4px solid var(--murekkep); box-shadow: 0 6px 0 rgba(31, 42, 68, .25); }
+  h1 { margin: 0; font: 800 clamp(44px, 9vw, 72px)/1 'Baloo 2', system-ui, sans-serif; color: #fff; -webkit-text-stroke: 7px var(--murekkep); paint-order: stroke fill; }
+  .alt { margin: 8px 0 0; font-weight: 700; font-size: 19px; }
+  .rozet { display: inline-block; margin-top: 18px; padding: 10px 22px; border-radius: 999px; background: var(--gunes); border: 3px solid var(--murekkep);
+    box-shadow: 0 4px 0 var(--gunes-koyu); font: 800 20px/1.2 'Baloo 2', system-ui, sans-serif; }
+  .resimler { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 30px 0; }
+  .resimler img { width: 100%; height: auto; border-radius: 18px; border: 3px solid var(--murekkep); display: block; }
+  @media (max-width: 640px) { .resimler { grid-template-columns: 1fr 1fr; } .resimler img:nth-child(3) { display: none; } }
+  .kart { background: var(--kagit); border: 3px solid var(--murekkep); border-radius: 20px; padding: 6px 22px 16px; }
+  .kart h2 { font: 800 24px/1.2 'Baloo 2', system-ui, sans-serif; margin: 16px 0 6px; }
+  .kart li { margin: 5px 0; }
+  footer { margin-top: 26px; font-size: 15px; }
+  a { color: #1b5fa8; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="sayfa">
+  <div class="ust">
+    <img src="simge.png" alt="Çember Çevir simgesi">
+    <div>
+      <h1>Çember Çevir</h1>
+      <p class="alt">Çemberini düşürmeden ne kadar uzağa gidebilirsin?</p>
+    </div>
+  </div>
+  <span class="rozet">Yakında Google Play'de</span>
+
+  <div class="resimler">
+    <img src="ekran-1.png" alt="Ana menü" loading="lazy">
+    <img src="ekran-3.png" alt="Botlarla yarış" loading="lazy">
+    <img src="ekran-4.png" alt="Mars'ta uzay yolu" loading="lazy">
+  </div>
+
+  <div class="kart">
+    <h2>Neler var?</h2>
+    <ul>
+      <li>Mahalleden çarşıya, sahilden karlı sokaklara 8 farklı mekân</li>
+      <li>Botlarla ve arkadaşlarınla online yarış, kupalar ve ligler</li>
+      <li>24 bölümlük zorlu yollar: Ay, Mars ve uzaylı gezegeni</li>
+      <li>Karakterler, kıyafetler, çemberler, çubuklar ve özel ayakkabılar</li>
+      <li>Reklam yok, sohbet yok, gerçek ad istenmez</li>
+    </ul>
+  </div>
+
+  <footer><a href="gizlilik.html">Gizlilik Politikası / Privacy Policy</a></footer>
+</div>
+</body>
+</html>

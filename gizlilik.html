@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Çember Çevir · Gizlilik Politikası</title>
+<meta name="description" content="Çember Çevir oyununun gizlilik politikası: hangi veriler, neden ve nasıl işlenir.">
+<link rel="icon" href="simge.png">
+<style>
+  @font-face { font-family: 'Baloo 2'; font-weight: 800; font-display: swap; src: url(fonts/baloo-2-latin-ext-800-normal.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  @font-face { font-family: 'Baloo 2'; font-weight: 800; font-display: swap; src: url(fonts/baloo-2-latin-800-normal.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  :root { --gok: #8fd3ef; --kagit: #fff8ec; --murekkep: #1f2a44; --soluk: #5b6070; --gunes: #ffc93c; --cizgi: #ead9bd; }
+  * { box-sizing: border-box; }
+  html { background: var(--gok); }
+  body { margin: 0; color: var(--murekkep); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 24px auto 48px; padding: 28px 22px 36px; background: var(--kagit); border: 3px solid var(--murekkep); border-radius: 22px; }
+  @media (max-width: 800px) { main { margin: 16px; } }
+  @media (max-width: 480px) { h1 { font-size: 25px; } header img { width: 52px; height: 52px; } }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header img { width: 64px; height: 64px; border-radius: 16px; border: 3px solid var(--murekkep); }
+  h1, h2 { font-family: 'Baloo 2', system-ui, sans-serif; font-weight: 800; line-height: 1.15; }
+  h1 { font-size: 32px; margin: 0; }
+  h2 { font-size: 22px; margin: 30px 0 6px; }
+  .tarih { color: var(--soluk); margin: 4px 0 18px; font-size: 15px; }
+  .ozet { background: #fff; border: 2px solid var(--cizgi); border-radius: 14px; padding: 6px 18px; }
+  .ozet li { margin: 6px 0; }
+  a { color: #1b5fa8; }
+  nav.dil { margin: 6px 0 0; font-size: 15px; }
+  hr { border: 0; border-top: 2px dashed var(--cizgi); margin: 40px 0 10px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="simge.png" alt="">
+    <div>
+      <h1>Çember Çevir · Gizlilik Politikası</h1>
+      <nav class="dil"><a href="#english">English version below</a></nav>
+    </div>
+  </header>
+  <p class="tarih">Yürürlük tarihi: 15 Kasım 2026</p>
+
+  <p>Bu politika, Android için yayımlanan <b>Çember Çevir</b> oyununun (paket adı <code>com.cembercevir.oyun</code>) hangi bilgileri
+  neden ve nasıl işlediğini anlatır. Oyun çocuklar ve aileler için tasarlanmıştır; bu yüzden olabildiğince az veriyle çalışacak şekilde yapılmıştır.</p>
+
+  <div class="ozet">
+    <ul>
+      <li>Adın, e-postan, telefon numaran, konumun, fotoğrafların ya da rehberin <b>istenmez ve toplanmaz</b>.</li>
+      <li>Oyunda <b>reklam yoktur</b>, reklam kimliği kullanılmaz, kullanım istatistiği ya da izleme aracı yoktur.</li>
+      <li>Oyuncular birbirine <b>mesaj gönderemez</b>; sohbet yoktur.</li>
+      <li>Sıralamada ve online yarışta yalnızca oyunun ürettiği bir <b>takma ad</b> (ör. "HızlıKaplan42"), seçilen karakter ve puanlar görünür.</li>
+    </ul>
+  </div>
+
+  <h2>1. Cihazında saklanan bilgiler</h2>
+  <p>Oyun ilerlemen (altın, açılan karakter ve eşyalar, rekorlar, tamamlanan bölümler, ayarlar) yalnızca telefonunda saklanır.
+  Oyunu kaldırdığında bu bilgiler de silinir. Telefonunda Android'in otomatik yedekleme özelliği açıksa bu bilgiler Google hesabına
+  yedeklenebilir. Bu yedeği Google tutar, bize ulaşmaz.</p>
+
+  <h2>2. Çevrim içi özellikler: sıralama ve online yarış</h2>
+  <p>Sıralama tabloları ve online yarış için Google'ın <b>Firebase</b> hizmetleri (Authentication ve Realtime Database) kullanılır.
+  Bu özellikler için işlenen bilgiler şunlardır:</p>
+  <ul>
+    <li><b>Anonim kimlik:</b> Firebase, oyunu yükleyen cihaza rastgele bir kullanıcı kimliği verir. Bu kimlik için e-posta, telefon ya da
+    hesap açmak gerekmez; kimliğin kim olduğunu göstermez.</li>
+    <li><b>Takma ad:</b> Oyun hazır kelimelerden bir takma ad önerir; oyuncu serbest metin yazamaz, yalnızca yeni bir ad isteyebilir.
+    Takma ad sıralamada ve online yarışta diğer oyunculara görünür.</li>
+    <li><b>Puanlar:</b> en yüksek puan, koşulan mesafe, kupa ve lig bilgisi ile haftalık, günlük ve "zorlu yol" puanları sıralama
+    tablolarında saklanır ve diğer oyunculara görünür.</li>
+    <li><b>Online yarış bilgileri:</b> yarış sırasında karakterinin görünümü, pistteki ilerlemen ve kullandığın oyun güçleri aynı yarıştaki
+    oyunculara iletilir. Bu bilgiler yarıştan çıkınca silinir. "İlerleme", oyunun içindeki pistte kaç metre koştuğundur; telefonunun
+    gerçek konumu kullanılmaz.</li>
+  </ul>
+  <p>Bu bilgiler Google'ın sunucularında (Firebase Realtime Database, Avrupa bölgesi) saklanır ve aktarılırken şifrelenir (HTTPS/TLS).
+  Bağlantı kurulurken Google, IP adresi gibi teknik bilgileri hizmeti sunmak için işleyebilir. Ayrıntılar için
+  <a href="https://firebase.google.com/support/privacy">Firebase gizlilik açıklaması</a> ve
+  <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a> sayfalarına bakabilirsin.</p>
+
+  <h2>3. Bilgilerin kullanımı ve paylaşımı</h2>
+  <p>Bilgiler yalnızca sıralama tablolarını göstermek ve online yarışı oynatmak için kullanılır. Hiçbir bilgi satılmaz, reklam için
+  kullanılmaz, başka şirketlerle paylaşılmaz. Firebase, bu işi bizim adımıza yürüten hizmet sağlayıcıdır.</p>
+
+  <h2>4. Saklama süresi</h2>
+  <p>Online yarış bilgileri yarış bitince silinir. Sıralama kayıtları, oyuncu silinmesini isteyene ya da oyun yayından kalkana kadar
+  saklanır.</p>
+
+  <h2>5. Silme ve diğer hakların</h2>
+  <p>Sıralamadaki kayıtlarının silinmesini istersen, oyundaki takma adını yazarak <a href="mailto:kocakburak13@gmail.com">kocakburak13@gmail.com</a> adresine
+  e-posta gönder. O takma ada ait kayıtlar en geç 30 gün içinde silinir. Telefonundaki bilgiler için oyunu kaldırman yeterlidir.
+  6698 sayılı Kişisel Verilerin Korunması Kanunu ve benzeri düzenlemelerden doğan bilgi alma, düzeltme ve silme haklarını da aynı
+  adres üzerinden kullanabilirsin.</p>
+
+  <h2>6. Çocuklar</h2>
+  <p>Çember Çevir çocuklar için tasarlanmıştır. Çocuklardan bilerek kişisel bilgi istemeyiz ve toplamayız; takma adlar bu yüzden hazır
+  kelimelerden oluşur. Veliler, çocuklarıyla ilgili her soru ve silme isteği için yukarıdaki adrese yazabilir.</p>
+
+  <h2>7. İzinler</h2>
+  <p>Oyun yalnızca iki izin kullanır: <b>internet</b> (sıralama ve online yarış için) ve <b>titreşim</b> (çarpışma gibi anlarda kısa bir
+  titreşim için). Kamera, mikrofon, konum, rehber ya da dosyalara erişmez.</p>
+
+  <h2>8. Değişiklikler</h2>
+  <p>Bu politika değişirse yeni hâli bu sayfada yayımlanır ve yukarıdaki tarih güncellenir. Oyuna reklam ya da yeni bir veri işleme
+  eklenirse, bu politika önceden güncellenir.</p>
+
+  <h2>9. İletişim</h2>
+  <p>Sorular için: <a href="mailto:kocakburak13@gmail.com">kocakburak13@gmail.com</a></p>
+
+  <hr id="english">
+
+  <h1 lang="en">Privacy Policy</h1>
+  <div lang="en">
+  <p class="tarih">Effective date: November 15, 2026</p>
+  <p>This policy explains what information the Android game <b>Çember Çevir</b> (package <code>com.cembercevir.oyun</code>) processes, why,
+  and how. The game is designed for children and families, so it is built to work with as little data as possible.</p>
+  <div class="ozet">
+    <ul>
+      <li>We <b>do not ask for or collect</b> your name, email, phone number, location, photos or contacts.</li>
+      <li>There are <b>no ads</b>, no advertising ID, and no analytics or tracking tools.</li>
+      <li>Players <b>cannot send messages</b> to each other; there is no chat.</li>
+      <li>Leaderboards and online races only show a <b>nickname generated by the game</b> (e.g. "HızlıKaplan42"), the chosen character and scores.</li>
+    </ul>
+  </div>
+  <h2>1. Information stored on your device</h2>
+  <p>Your game progress (coins, unlocked characters and items, records, completed levels, settings) is stored only on your phone and is
+  deleted when you uninstall the game. If Android's automatic backup is turned on, this data may be backed up to your Google account;
+  that backup is kept by Google and never reaches us.</p>
+  <h2>2. Online features: leaderboards and online races</h2>
+  <p>Leaderboards and online races use Google's <b>Firebase</b> services (Authentication and Realtime Database). The information processed is:</p>
+  <ul>
+    <li><b>Anonymous ID:</b> Firebase assigns a random user ID to the device. No email, phone number or account is needed, and the ID does not reveal who you are.</li>
+    <li><b>Nickname:</b> the game suggests a nickname made of preset words; players cannot type free text, only ask for a new suggestion. The nickname is visible to other players on leaderboards and in online races.</li>
+    <li><b>Scores:</b> best score, distance, trophies and league, plus weekly, daily and "challenge road" scores are stored in leaderboards and visible to other players.</li>
+    <li><b>Online race data:</b> during a race, your character's appearance, your progress on the in-game track and the power-ups you use are sent to the players in the same race, and deleted when you leave the race. Your phone's real location is never used.</li>
+  </ul>
+  <p>This information is stored on Google's servers (Firebase Realtime Database, Europe region) and encrypted in transit (HTTPS/TLS).
+  Google may process technical data such as IP addresses to provide the service; see the
+  <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a> and the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  <h2>3. Use and sharing</h2>
+  <p>The information is used only to show leaderboards and run online races. It is never sold, never used for advertising and never shared
+  with other companies. Firebase acts as our service provider.</p>
+  <h2>4. Retention</h2>
+  <p>Online race data is deleted when the race ends. Leaderboard entries are kept until the player asks for deletion or the game is withdrawn.</p>
+  <h2>5. Deletion and your rights</h2>
+  <p>To have your leaderboard entries deleted, email <a href="mailto:kocakburak13@gmail.com">kocakburak13@gmail.com</a> with your in-game nickname. Entries for that
+  nickname are deleted within 30 days. Uninstalling the game removes the data on your phone. You can use the same address to exercise any
+  other data protection rights you have.</p>
+  <h2>6. Children</h2>
+  <p>Çember Çevir is designed for children. We do not knowingly request or collect personal information from children, which is why nicknames
+  are built from preset words. Parents can contact us at the address above with any question or deletion request.</p>
+  <h2>7. Permissions</h2>
+  <p>The game uses only two permissions: <b>internet</b> (for leaderboards and online races) and <b>vibration</b> (short feedback on
+  collisions). It does not access the camera, microphone, location, contacts or files.</p>
+  <h2>8. Changes</h2>
+  <p>If this policy changes, the new version will be published on this page with an updated date. If ads or any new data processing are
+  added to the game, this policy will be updated first.</p>
+  <h2>9. Contact</h2>
+  <p><a href="mailto:kocakburak13@gmail.com">kocakburak13@gmail.com</a></p>
+  </div>
+</main>
+</body>
+</html>
